@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,14 +19,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  justify-content: space-around;
+}
+
+h2 {
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
 }
 
 .App-link {
@@ -35,4 +48,132 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  height: 45vh;
+}
+
+/* Profile Content Styling */
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profileContent {
+  width: 90%;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid #BFC0C0;
+  padding: 0 2rem;
+  background-color: black;
+}
+
+.profileText {
+  font-size: 2rem;
+  margin: 0 3rem;
+}
+
+img {
+  width: 40%;
+  border-radius: 1  %;
+  box-shadow: 10px 10px 20px #ffbf00;
+  border: solid 1px black;
+}
+
+
+/* button styles */
+
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
+#button-6 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-6 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#spin {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 70px;
+  top: 20px;
+  transform: rotate(0deg);
+  background: none;
+  position: absolute;
+  transition: all .5s ease-Out;
+}
+
+#button-6:hover #spin {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  left: -70px;
+  top: -70px;
+  background: #BFC0C0;
+  transform: rotate(80deg);
+}
+
+#button-6:hover a {
+  color: #2D3142;
+ 
+}
+
+/* Header Content Styling  */
+
+.textStyle {
+  font-size: 2.5rem;
+  color: white;
+}
+
+h1 {
+  color: grey;
+  font-size:3rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#headerContent {
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.header{
+  font-size: 1.2rem;
+  color: #ffbf00;
+  text-align: left;
 }

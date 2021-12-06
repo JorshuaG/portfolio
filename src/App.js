@@ -9,6 +9,8 @@ import * as dat from "dat.gui";
 import Navbar from "./components/navbar";
 import ProfileContent from "./components/profileContent";
 import HeaderContent from "./components/headerContent";
+import Footer from "./components/footer";
+import Projects from "./components/projects";
 
 function App() {
   useEffect(() => {});
@@ -18,9 +20,10 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <HeaderContent/>
+      <HeaderContent />
       <ProfileContent />
-
+      <Projects />
+      <Footer />
       <ParticlesBg color={"#ffffff"} type="cobweb" bg={true} />
     </div>
   );

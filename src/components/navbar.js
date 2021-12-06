@@ -7,18 +7,18 @@ function Navbar(props) {
         <h2>Joshua Gearheart</h2>
       </div>
       <div>
-         <div class="button" id="button-6">
-            <div id="spin"></div>
-            <a href="#">About Me</a>
+        <div class="button" id="button-6">
+          <div id="spin"></div>
+          <a href="#">About Me</a>
         </div>
-          <div class="button" id="button-6">
-    <div id="spin"></div>
-    <a href="#">Projects</a>
-  </div>
-          <div class="button" id="button-6">
-    <div id="spin"></div>
-    <a href="#">SignIn</a>
-  </div>
+        <div class="button" id="button-6">
+          <div id="spin"></div>
+          <a href="#">Projects</a>
+        </div>
+        <div class="button" id="button-6">
+          <div id="spin"></div>
+          <a href="#">Skills</a>
+        </div>
       </div>
     </div>
   );

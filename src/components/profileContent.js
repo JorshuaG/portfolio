@@ -9,8 +9,9 @@ function ProfileContent(props) {
           alt="Josh Gearheart wearing a gray shirt"
         ></img>
         <div className="profileText">
-          “He felt that his whole life was some kind of dream and he sometimes wondered whose it was and whether they were enjoying it.”
-― Douglas Adams, The Hitchhiker's Guide to the Galaxy
+          “He felt that his whole life was some kind of dream and he sometimes
+          wondered whose it was and whether they were enjoying it.” ― Douglas
+          Adams, The Hitchhiker's Guide to the Galaxy
         </div>
       </div>
     </section>

@@ -77,11 +77,11 @@ section {
   margin: 0 3rem;
 }
 
-img {
+.profileContent img {
   width: 40%;
-  border-radius: 1 %;
-  box-shadow: 10px 10px 20px #ffbf00;
-  border: solid 1px black;
+  border-radius: 1%;
+  border: solid 1px black
+
 }
 
 /* button styles */
@@ -173,9 +173,9 @@ h1 {
   text-align: left;
 }
 
-/* SignIn Button Styling */
+/* FortyTwo Button Styling */
 
-.SignIn-button {
+.FortyTwo-button {
   display: inline-flex;
   height: 40px;
   width: 150px;
@@ -190,19 +190,19 @@ h1 {
   overflow: hidden;
 }
 
-#signIn {
+#FortyTwo {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-#signIn a {
+#FortyTwo a {
   color: black;
   position: relative;
   transition: all 0.45s ease-Out;
 }
 
-#SignInspin {
+#FortyTwospin {
   width: 0;
   height: 0;
   opacity: 0;
@@ -214,7 +214,7 @@ h1 {
   transition: all 0.5s ease-Out;
 }
 
-#signIn:hover #SignInspin {
+#FortyTwo:hover #FortyTwospin {
   width: 200%;
   height: 500%;
   opacity: 1;
@@ -224,7 +224,7 @@ h1 {
   transform: rotate(80deg);
 }
 
-#signIn:hover a {
+#FortyTwo:hover a {
   color: red;
 }
 
@@ -238,4 +238,101 @@ h1 {
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* Project Item List*/
+
+.ProjectItem {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  border: 2px solid #bfc0c0;
+  padding: 0 2rem;
+  margin: 4vh auto;
+}
+
+.ProjectItem p {
+  color: #ffbf00;
+}
+
+.projectTitle h2 {
+  display: flex;
+  align-items: flex-start;
+  margin: 2rem 3rem;
+}
+
+.projectLinkImg {
+  height: 10vh;
+  width: 10vh;
+}
+
+
+/* Skills List */
+
+.skillSection{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+
+.skillSection p {
+  margin: 2rem 3rem;
+  color: white;
+}
+
+.skillSection li {
+  margin: 0 3rem;
+  color: #ffbf00
+}
+
+.skillListItems{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.svg-link{
+  background-color: transparent;
+  color:  #ffbf00;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 8rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin: .4rem .4rem;
+}
+
+
+.svg-link svg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.outline{
+  width: 100%;
+  height: 100%;
+  stroke-width: .4rem;
+  stroke: #ffbf00;
+  fill: transparent;
+  stroke-dasharray: 59 235;
+  stroke-dashoffset: -235;
+  transition: all 0.9s;
+}
+
+.svg-link:hover{
+  color: #ffbf00;
+}
+
+.svg-link:hover .outline{
+  stroke-width: .2rem;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 379;
 }

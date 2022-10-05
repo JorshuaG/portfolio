@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./skills";
 
 function ProfileContent(props) {
   return (
@@ -8,11 +9,7 @@ function ProfileContent(props) {
           src={`${process.env.PUBLIC_URL}/josh.JPG`}
           alt="Josh Gearheart wearing a gray shirt"
         ></img>
-        <div className="profileText">
-          “He felt that his whole life was some kind of dream and he sometimes
-          wondered whose it was and whether they were enjoying it.” ― Douglas
-          Adams, The Hitchhiker's Guide to the Galaxy
-        </div>
+        <Skills />
       </div>
     </section>
   );

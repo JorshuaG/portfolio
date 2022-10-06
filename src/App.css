@@ -36,6 +36,10 @@ h2 {
   letter-spacing: 1.5px;
 }
 
+p {
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -62,6 +66,7 @@ section {
 
 .profileContent {
   width: 90%;
+  height: 45vh;
   display: flex;
   color: white;
   justify-content: space-around;
@@ -72,13 +77,15 @@ section {
   background-color: black;
 }
 
+
 .profileText {
   font-size: 2rem;
   margin: 0 3rem;
 }
 
 .profileContent img {
-  width: 40%;
+  max-width: 4 0%;
+  height: 85%;
   border-radius: 1%;
   border: solid 1px black
 

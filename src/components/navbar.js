@@ -9,15 +9,11 @@ function Navbar(props) {
       <div>
         <div class="button" id="button-6">
           <div id="spin"></div>
-          <a href="#">About Me</a>
+          <a href="/resume">Resume</a>
         </div>
         <div class="button" id="button-6">
           <div id="spin"></div>
-          <a href="#">Projects</a>
-        </div>
-        <div class="button" id="button-6">
-          <div id="spin"></div>
-          <a href="#">Skills</a>
+          <a href="/">Home</a>
         </div>
       </div>
     </div>

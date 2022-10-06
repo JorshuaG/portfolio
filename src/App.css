@@ -180,6 +180,18 @@ h1 {
   text-align: left;
 }
 
+.socialContainer {
+  margin-top: 1.6rem;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialContainer a{
+margin: 0 2rem;
+}
+
 /* FortyTwo Button Styling */
 
 .FortyTwo-button {
@@ -273,6 +285,12 @@ h1 {
 .projectLinkImg {
   height: 10vh;
   width: 10vh;
+}
+
+.projectLinks {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
 }
 
 

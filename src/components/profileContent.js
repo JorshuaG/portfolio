@@ -6,7 +6,7 @@ function ProfileContent(props) {
     <section className="profile">
       <div className="profileContent">
         <img
-          src={`${process.env.PUBLIC_URL}/josh.JPG`}
+          src={`${process.env.PUBLIC_URL}/joshHeadshotBW.JPG`}
           alt="Josh Gearheart wearing a gray shirt"
         ></img>
         <Skills />
